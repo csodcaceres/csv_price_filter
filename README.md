@@ -1,12 +1,43 @@
-# csv_price_filter
+# CSV Price Filter 📊💰
 
-Script en Python que lee un archivo CSV, filtra productos según un precio mínimo y genera un nuevo CSV con los resultados.
+[![Python Version](https://img.shields.io/badge/python-3.x-blue.svg)](https://www.python.org/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-## Cómo usar
+Una herramienta de línea de comandos (CLI) eficiente para filtrar catálogos de productos en formato CSV basándose en rangos de precios.
 
-1. Tener Python instalado.
-2. Ejecutar:
+## 🚀 Instalación
+
+1. **Clona el repositorio:**
    ```bash
-   python app.py
-   ```
-3. El programa leerá productos.csv y generará productos_filtrados.csv.
+   git clone [https://github.com/csodcaceres/csv_price_filter.git](https://github.com/csodcaceres/csv_price_filter.git)
+   cd csv_price_filter
+
+2. **Instala las dependencias:**
+
+   pip install -r requirements.txt
+
+📖 Uso
+
+Ejecuta el script pasando el archivo de entrada, el rango de precios y el nombre del archivo de salida:
+
+   python main.py --input productos.csv --min 10 --max 50 --output filtrados.csv
+
+
+Parámetros:
+   --input: Archivo CSV original.
+   --min: (Opcional) Precio mínimo.
+   --max: (Opcional) Precio máximo.
+   --output: Nombre del archivo resultante.
+
+🛠️ Estructura del Proyecto
+   main.py: Lógica principal del filtro.
+   requirements.txt: Librerías necesarias.
+   data/: Carpeta para archivos de ejemplo.
+
+🤝 Contribuciones
+   Haz un Fork.
+   Crea una rama (git checkout -b feature/mejora).
+   Haz commit de tus cambios (git commit -m 'Añadir mejora').
+   Haz Push (git push origin feature/mejora).
+   Abre un Pull Request.
+
