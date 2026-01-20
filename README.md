@@ -17,7 +17,7 @@ Una herramienta de línea de comandos (CLI) eficiente para filtrar catálogos de
 
 Ejecuta el script pasando el archivo de entrada, el rango de precios y el nombre del archivo de salida:
 
-   python main.py --input productos.csv --min 10 --max 50 --output filtrados.csv
+   python app.py --input productos.csv --min 10 --max 50 --output filtrados.csv
 
 
 Parámetros:
