@@ -21,11 +21,11 @@ Ejecuta el script pasando el archivo de entrada, el rango de precios y el nombre
 
 
 Parámetros:
-   --input: Archivo CSV original.
-   --min: (Opcional) Precio mínimo.
-   --max: (Opcional) Precio máximo.
-   --output: Nombre del archivo resultante.
+   --input: Archivo CSV original.  
+   --min: (Opcional) Precio mínimo.  
+   --max: (Opcional) Precio máximo.  
+   --output: Nombre del archivo resultante.  
 
-🛠️ Estructura del Proyecto
+🛠️ Estructura del Proyecto  
    app.py: Lógica principal del filtro.
  
