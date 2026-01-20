@@ -12,9 +12,6 @@ Una herramienta de línea de comandos (CLI) eficiente para filtrar catálogos de
    git clone [https://github.com/csodcaceres/csv_price_filter.git](https://github.com/csodcaceres/csv_price_filter.git)
    cd csv_price_filter
 
-2. **Instala las dependencias:**
-
-   pip install -r requirements.txt
 
 📖 Uso
 
