@@ -27,14 +27,5 @@ Parámetros:
    --output: Nombre del archivo resultante.
 
 🛠️ Estructura del Proyecto
-   main.py: Lógica principal del filtro.
-   requirements.txt: Librerías necesarias.
-   data/: Carpeta para archivos de ejemplo.
-
-🤝 Contribuciones
-   Haz un Fork.
-   Crea una rama (git checkout -b feature/mejora).
-   Haz commit de tus cambios (git commit -m 'Añadir mejora').
-   Haz Push (git push origin feature/mejora).
-   Abre un Pull Request.
-
+   app.py: Lógica principal del filtro.
+ 
